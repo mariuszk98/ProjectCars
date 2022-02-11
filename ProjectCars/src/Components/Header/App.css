@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+
+.app-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50%;
+  justify-content: center;
+  height: 100px;
+  background-color: white;
+  -webkit-box-shadow: 8px 32px 31px -30px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 32px 31px -30px rgba(66, 68, 90, 1);
+  box-shadow: 8px 32px 31px -30px rgba(66, 68, 90, 1);
+}
+
+.name {
+  padding-top: 10px;
+  font-size: 50px;
+  background-color: white;
+  text-shadow: 4px 4px 20px rgba(66, 68, 90, 1);
+}
+
+.list-info a {
+  text-decoration: none;
+  padding: 0 30px;
+  font-size: 30px;
+  background-color: white;
+}
+
+li {
+  background-color: white;
+}
+
+ul {
+  list-style-type: none;
+  background-color: white;
+  padding-top: 30px;
+}
