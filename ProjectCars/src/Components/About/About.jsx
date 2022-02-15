@@ -1,9 +1,10 @@
 import React from "react";
+import "./style.css";
 
 function About() {
   return (
-    <div>
-      <h2>
+    <div className="about">
+      <h2 className="textAbout">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus
         nesciunt excepturi veritatis commodi aliquam. Cumque illum ipsa dolor
         dignissimos, facere eveniet omnis quos nulla laborum, ex nemo

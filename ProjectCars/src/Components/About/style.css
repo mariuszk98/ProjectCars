@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about {
+  display: flex;
+}
+
+.textAbout {
+  margin-top: 80px;
+  width: 50%;
+}

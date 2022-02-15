@@ -11,9 +11,9 @@ import Lexus from "../Images/lexus-lc500.jpg";
 import Mercedes from "../Images/mercedes-c63s.jpg";
 import Toyota from "../Images/toyota-supra.jpg";
 
-const Data = [
+const data = [
   {
-    ImgUrl: { AudiR8 },
+    ImgUrl: AudiR8,
     name: "Audi",
     model: "R8 Grenn Hell",
     engine: "5200 cc",
@@ -25,7 +25,7 @@ const Data = [
     production: "Niemcy",
   },
   {
-    ImgUrl: { Porsche911 },
+    ImgUrl: Porsche911,
     name: "Porsche 911",
     model: "Carrera 4S",
     engine: "3000 cc",
@@ -37,7 +37,7 @@ const Data = [
     production: "Niemcy",
   },
   {
-    ImgUrl: { BmwM5 },
+    ImgUrl: BmwM5,
     name: "Bmw",
     model: "M5 Competition",
     engine: "4400 cc",
@@ -49,7 +49,7 @@ const Data = [
     production: "Niemcy",
   },
   {
-    ImgUrl: { NissanGTR },
+    ImgUrl: NissanGTR,
     name: "Nissan",
     model: "GR-R Prestige",
     engine: "3700 cc",
@@ -61,7 +61,7 @@ const Data = [
     production: "Japonia",
   },
   {
-    ImgUrl: { AudiRs6 },
+    ImgUrl: AudiRs6,
     name: "Audi",
     model: "Rs6 C8 Performance",
     engine: "4000 cc",
@@ -73,7 +73,7 @@ const Data = [
     production: "Niemcy",
   },
   {
-    ImgUrl: { Chevrolet },
+    ImgUrl: Chevrolet,
     name: "Chevrolet",
     model: "Camaro SS",
     engine: "6200 cc",
@@ -85,7 +85,7 @@ const Data = [
     production: "Ameryka",
   },
   {
-    ImgUrl: { Doge },
+    ImgUrl: Doge,
     name: "Doge",
     model: "Challenger Hellcat",
     engine: "6200 cc",
@@ -97,7 +97,7 @@ const Data = [
     production: "Ameryka",
   },
   {
-    ImgUrl: { Ford },
+    ImgUrl: Ford,
     name: "Ford",
     model: "Mustang GT V8",
     engine: "5000 cc",
@@ -109,7 +109,7 @@ const Data = [
     production: "Ameryka",
   },
   {
-    ImgUrl: { Kia },
+    ImgUrl: Kia,
     name: "Kia",
     model: "Stinger V6 BiTurbo",
     engine: "3300 cc",
@@ -121,7 +121,7 @@ const Data = [
     production: "Korea",
   },
   {
-    ImgUrl: { Lexus },
+    ImgUrl: Lexus,
     name: "Lexus",
     model: "LC500 Superturismo ",
     engine: "5000 cc",
@@ -133,7 +133,7 @@ const Data = [
     production: "Japonia",
   },
   {
-    ImgUrl: { Mercedes },
+    ImgUrl: Mercedes,
     name: "Mercedes",
     model: "C63S AMG",
     engine: "4000 cc",
@@ -145,7 +145,7 @@ const Data = [
     production: "Niemcy",
   },
   {
-    ImgUrl: { Toyota },
+    ImgUrl: Toyota,
     name: "Toyota",
     model: "GR Supra TwinTurbo",
     engine: "3000 cc",
@@ -158,4 +158,4 @@ const Data = [
   },
 ];
 
-export default Data;
+export default data;

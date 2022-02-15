@@ -11,7 +11,7 @@ export default function App() {
     <Router>
       <Header />
       <Route path="/about" component={About} />
-      <Route path="/car/:id" component={CarInfo} />
+      <Route path="/car/:name" component={CarInfo} />
       <Route path="/" exact component={MainContainers} />
     </Router>
   );

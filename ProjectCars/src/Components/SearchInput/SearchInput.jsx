@@ -1,12 +1,16 @@
 import React from "react";
 import "./App.css";
 
-export const SearchInput = () => {
+export const SearchInput = ({ setCar }) => {
   return (
     <>
       <div className="input-info">
         <p className="text">Search Your Favorite Cars</p>
-        <input className="input" placeholder="Search car..." />
+        <input
+          onChange={(e) => setCar(e.target.value)}
+          className="input"
+          placeholder="Search car..."
+        />
       </div>
     </>
   );
